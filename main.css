@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+    font-size: medium;
+}
+
+body, textarea, input {
+    font-family: "Roboto", sans-serif;
+}
+
+body section h2 {
+    font-size: 18px;
+}
+
+body div {
+    padding: 16px 8px;
+}
+
+header {
+    padding: 32px 0;
+    background-color: #123e4d;
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline-flex;
+    padding-left: 32px;
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 20rem;
+}
+
+section {
+    padding: 8px;
+    margin: 8px 0;
+    background-color: #2d6073;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(1, 0, 0, 1);
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-links img {
+    height: 30px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    padding: 24px 0;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #181717;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    margin-top: 8px;
+}
